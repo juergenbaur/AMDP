@@ -6,6 +6,8 @@ CLASS zju_amdp_crud_213 DEFINITION
   PUBLIC SECTION.
     INTERFACES: if_amdp_marker_hdb.
 
+
+
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -13,6 +15,8 @@ ENDCLASS.
 
 
 CLASS zju_amdp_crud_213 IMPLEMENTATION.
+
+
 
 
 

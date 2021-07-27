@@ -31,6 +31,7 @@ CLASS zju_amdp_crud_starter IMPLEMENTATION.
   ENDMETHOD.
   METHOD insert_data.
 
+
     DATA lt_preise TYPE SORTED TABLE OF zju_preise WITH UNIQUE KEY laenge breite hoehe gewicht als_paeckchen ist_online.
 
     lt_preise = VALUE #( ( laenge = 30  breite = 30  hoehe = 30 gewicht = 1000 als_paeckchen = 'X'  ist_online = 'X' preis = 389 )
