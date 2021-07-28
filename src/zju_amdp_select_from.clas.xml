@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZJU_CL_COUNTRY</CLSNAME>
+    <CLSNAME>ZJU_AMDP_SELECT_FROM</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Class for Table Function</DESCRIPT>
+    <DESCRIPT>AMDP Demo SAP Academy</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
