@@ -53,7 +53,7 @@ CLASS zju_amdp_crud_starter IMPLEMENTATION.
                          ( laenge = 121  breite = 60  hoehe = 60 gewicht = 2000 als_paeckchen = ' '  ist_online = ' ' preis = 0 )
     ).
 
-    DELETE zju_preise FROM TABLE @lt_preise.
+    DELETE from zju_preise.
     insert zju_preise FROM TABLE @lt_preise.
 
   ENDMETHOD.
